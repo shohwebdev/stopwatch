@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    background-color: #0099ff;
+}
+.windowshell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.outershell{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin: 20px 10px;
+    color: black;
+    font-weight: bold;
+    background-color: #0099ff;
+    border-radius: 10px;
+    border: none;
+    padding:10px 20px;
+    font-size: larger;
+}
+.start{
+    background-color: green;
+}
+.stop{
+    background-color: gold;
+}
+.reset{
+    background-color: red;
+}
+.milli{
+    font-size: large;
+}
+.timerscreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timer{
+    padding: 10px;
+}
+label{
+    font-variant: small-caps;
+    font-family: fantasy;
+    font-size: xx-large;
+}
